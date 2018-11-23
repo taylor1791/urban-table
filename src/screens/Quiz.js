@@ -89,13 +89,13 @@ export class Quiz extends React.Component {
           <Digit value={8} onPress={this.pressDigit} />
           <Digit value={9} onPress={this.pressDigit} />
 
-          <Digit value={6} onPress={this.pressDigit} />
-          <Digit value={5} onPress={this.pressDigit} />
           <Digit value={4} onPress={this.pressDigit} />
+          <Digit value={5} onPress={this.pressDigit} />
+          <Digit value={6} onPress={this.pressDigit} />
 
-          <Digit value={3} onPress={this.pressDigit} />
-          <Digit value={2} onPress={this.pressDigit} />
           <Digit value={1} onPress={this.pressDigit} />
+          <Digit value={2} onPress={this.pressDigit} />
+          <Digit value={3} onPress={this.pressDigit} />
 
           <Digit value="C" onPress={this.pressDigit} />
           <Digit value={0} onPress={this.pressDigit} />
