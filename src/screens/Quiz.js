@@ -123,6 +123,7 @@ export class Quiz extends React.Component {
 
     // Need more digits
     if (enteredValue.toString().length !== expectedValue.toString().length) {
+      this.setState({ entered: enteredValue });
       return;
     }
 
